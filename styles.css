@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Delius&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+body {
+    width: 1200px;
+    font-family: 'Delius', Verdana, sans-serif;
+    color: #88A236;
+    margin-left: auto;
+    margin-right:auto}
+
+p,h2,h3,h4{
+    font-family: 'Montserrat', Verdana sans-serif;
+    color: #3D5100;
+}
+.column1of2 {
+    float: left;
+    width: 800px;
+    margin: 10px;}
+
+.column2of2 {
+    float: left;
+    width: 200px;
+    margin: 20px;}
+
+.img-1 {
+    width : 1200px;
+    margin-left: -40px;
+}
+
+#homepage-sections{
+    background-color: white
+}
+
+#big-blog{
+    width: 800px;
+    padding-left: 50px
+}
+
+
+
+
+#ind-blog-description{
+    background-color: #DFF2A2;
+    float: left;
+    width:250px;
+    padding-left: 10px;
+    text-align:center;
+    margin-left: 50px;
+    padding-right:20px;
+    margin-top:20px;
+}
+#ind-blog-description h3{
+    float:left;
+    width:300px;
+    padding-left: 0px;
+    text-align:left;
+}
+.website-title {
+    font-size: 30px;
+}
+
+#eco-title{
+    float: none;
+}
+
+.tip-content{
+    width: 400px;
+    float: left;
+    vertical-align: center;
+}
+#a-tip{
+    float:left;
+    vertical-align: center;
+    width: 100px;
+}
+.tip-content p{
+    width: 300px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.footer{
+    margin-top: 50px;
+    text-align:center;
+}
+
+
+#tree{
+    width: 800px;
+}
+
+#related{
+    margin-left:-30px;
+    display:block;
+}
+
+.menu-holder {
+    float: right;
+    max-width: 80%;
+    position: fixed;
+    text-align: center;
+    height: 100%;
+    background-color: #ffffff;
+    right: -100%;
+    top: 0;
+    transition: right .3s ease;
+    width: 100%;
+    overflow: auto;
+    max-width: 100%;
+    z-index: 99;
+    /*padding-top: 100px;*/
+    }
+ 
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+    }
+
+ul li {
+    display: inline;
+    padding: 10px;
+    float: right;
+}
+
+   ul li a, 
+   ul a :hover, 
+ul li a:focus, 
+ul li a:active {
+border: none;
+text-decoration: none;
+color: inherit;
+}
