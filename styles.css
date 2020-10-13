@@ -16,11 +16,37 @@ p,h2,h3,h4{
     width: 800px;
     margin: 10px;}
 
+.column1of2 h3{
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+
 .column2of2 {
     float: left;
-    width: 200px;
-    margin: 20px;}
+    width: 300px;
+    margin: 20px;
+    margin-top: 350px;
+    margin-left:20px;
+    padding-left: 30px;
+    text-align:center;
+    background-color: #648c2b;
+    color: #d9ffa3;
 
+}
+
+#Contact-dec{
+    background-color:#648c2b;
+}
+
+a :hover{
+    text-decoration:underline;
+}
+
+
+#related-title{
+    color: #b7e675;
+}
 .img-1 {
     width : 1200px;
     margin-left: -40px;
@@ -30,12 +56,38 @@ p,h2,h3,h4{
     background-color: white
 }
 
+.homepage-sections1{
+    background-color: white;
+    padding-bottom: 300px;
+    margin-bottom: 100px;
+    font-size: 16px;
+}
+
 #big-blog{
     width: 800px;
     padding-left: 50px
 }
 
+.contact-text{
+    font-size:70px;
+    color: #DFF2A2;
+}
 
+#Tips-title{
+    font-size:70px;
+    color: #88A236;
+    display:block;
+    margin:10px;
+    padding-bottom: 20px;
+}
+
+#p-text{
+    font-size: 20px;
+}
+
+#p-small-text{
+    font-size: 16px;
+}
 
 
 #ind-blog-description{
@@ -79,18 +131,35 @@ p,h2,h3,h4{
 }
 
 .footer{
-    margin-top: 50px;
+    padding-top: 100px;
     text-align:center;
 }
 
 
 #tree{
+    padding-top: 10px;
+    padding-bottom:50px;
     width: 800px;
 }
+form{
+    margin-top:50px;
+    background-color:white;
+    width:400px;
+    margin-left:30px;
+    float:left;
+}
 
+#pic{
+    margin-top: 60px;
+    margin-left: 100px;
+    padding-left: 200px;
+}
+#small-pic{
+    width : 300px;
+}
 #related{
-    margin-left:-30px;
     display:block;
+    text-align: left;
 }
 
 .menu-holder {
@@ -130,4 +199,79 @@ ul li a:active {
 border: none;
 text-decoration: none;
 color: inherit;
+}
+
+.form{
+    display:inline;
+    max-width: 200px;
+}
+
+.submit {
+    width: 310px;
+    text-align: right;}
+table {
+    border-spacing: 0px;}
+th, td {
+    padding: 5px 30px 5px 10px;
+    border-spacing: 0px;
+    font-size: 90%;
+    margin: 0px;}
+th, td {
+    text-align: left;
+    background-color: #e0e9f0;
+    border-top: 1px solid #f1f8fe;
+    border-bottom: 1px solid #cbd2d8;
+    border-right: 1px solid #cbd2d8;}
+tr.head th {
+    color: #fff;
+    background-color: #90b4d6;
+    border-bottom: 2px solid #547ca0;
+    border-right: 1px solid #749abe;
+    border-top: 1px solid #90b4d6;
+    text-align: center;
+    text-shadow: -1px -1px 1px #666666;
+    letter-spacing: 0.15em;}
+td {
+    text-shadow: 1px 1px 1px #ffffff;}
+tr.even td, tr.even th {
+    background-color: #e8eff5;}
+tr.head th:first-child {
+    /* WebKit is a browser engine used in Apple's Safari browser, Amazon 
+      Kindle e-book reader, BlackBerry Browser in OS 6 and above.
+
+      Not all CSS3 properties work well in all browsers. In a way to ensure that web pages display as expected in their browsers, vendors like Mozilla and Webkit developed their own browser-compatible properties. With CSS3, many compatibility issues are now resolved.
+      However, it is not unusual to still see these properties used in stylesheets. */
+
+    /* Webkit property*/
+    -webkit-border-top-left-radius: 5px;
+
+    /* Mozilla property*/
+    -moz-border-radius-topleft: 5px;
+
+    /* CSS3 property*/
+    border-top-left-radius: 5px;
+
+    /* More on border-radius property: https://www.the-art-of-web.com/css/border-radius/ */
+}
+tr.head th:last-child {
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-right-radius: 5px;}
+
+.title {
+    float: left;
+    width: 160px;
+    clear: left;}
+}
+
+.center-mid-3{
+    width: 940px;
+    background-color: #dee1e5;
+    padding-bottom: 15px;
+    padding-top: 30px;
+    }
+
+.form{
+    display:inline;
+    max-width: 200px;
 }
